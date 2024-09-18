@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.calculator {
+    background-color: #8b7b7b;
+    
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(211, 153, 153, 0.2);
+border-style: double;
+line-height: normal;
+
+#display {
+    padding:0%;
+    width: 70%;
+    height: 50px;
+    margin-bottom: 10px;
+    padding-inline: 0;
+    font-size: 24px;
+    text-align:center;
+    border: none;
+    border-radius: 50px;
+    background-color: #ee9292;
+}
+
+.buttons {
+    display:grid;
+
+    grid-template-columns: repeat(8, 4fr);
+    gap: 50px;
+}
+
+button {
+    padding: 20px;
+    font-size: 18px;
+    border: 2px solid whitesmoke;
+    background-color: #bdaaaa;
+    color: #6d0d0d;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    gap:50px;
+    border-style:outset;
+}
+
+
+}
+
+button:hover {
+    background-color: #615c5c;
+}
+
+button:active {
+    background-color: #8a1212;
+    gap:50px;
+}
+#mainButton{
+color:#8a1212;
+  background-color:blue;
+}
+
+#hiddenButtons {
+    display: inline;
+    align-content: center;
+    background-color: aqua; /* It will hide the buttons initially */
+}
